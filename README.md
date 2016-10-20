@@ -40,8 +40,7 @@ Boost.Asio содержит ***boost::asio::io_service*** - класс для о
 
 Пример 32.1. Используется ***boost::asio::steady_timer***
 
-<pre>
-<code>
+'''c++
     #include *<boost/asio/io_service.hpp>*
     #include *<boost/asio/steady_timer.hpp>*
     #include *<chrono>*
@@ -59,5 +58,4 @@ Boost.Asio содержит ***boost::asio::io_service*** - класс для о
 
       ioservice.run();
     }
-</code>
-</pre>
+'''
